@@ -1,0 +1,34 @@
+/* common */
+ h2 {
+    text-align: center;
+}
+
+/* header */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* banner */
+.banner{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    padding: 20px;
+}
+.banner .banner-image{
+    width: 60%;
+    padding: 10px;
+}
+.container .banner{
+    display:flex;
+    padding:20px;
+}
+
+/* card section */
+.card{
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+}
+.card-row{
+    display: flex;
+}

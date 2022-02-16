@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: linear-gradient(135deg, rgba(5, 40, 242, 1) 0%, 
+	rgba(242, 125, 22, 0.75) 100%);
+}
+
+h2 {
+	padding: 1rem;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-size: 1rem;
+}
+
+img {
+}
+
+/*--------------------------------------------*/
+
+/*Navbar*/
+
+.menu-bar {
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.item {
+  color: #0528F2;
+  background-color: transparent;
+  font-size: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+}
+
+.item.title {
+  font-weight: 600;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*--------------------------------------------*/
+
+.icon { 
+	max-width: 4rem;
+  	height: 4rem;
+	border-radius: 50%;
+}
+
+.box {
+	border-radius: 40px;
+	padding: 1rem;
+	margin: 5rem;
+	background-color: #F2F2F2;
+	box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box-activity {
+	display: flex;
+	justify-content: space-between;
+	background-color: #2e5ff2;
+	border-radius: 40px;
+	margin-top: 1rem;
+	padding: 1rem;
+	align-items: center;
+}
+
+/*--------------------------------------------*/
+
+/*Form*/
+
+.form {
+	padding: 3rem;
+	display: flex;
+	justify-content: space-between;
+	border: solid 0rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+.form-flex {
+	border: solid 0rem;
+}
+
+.form-row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1.5rem;
+}
+
+.form-row > label {
+	padding-right: 2.5rem;
+	flex: 1;
+}
+
+.form-row > input {
+	flex: 2;
+	padding: 0.5rem;
+}
+
+.form-row > button {
+	border-radius: 6%;
+}
+/*--------------------------------------------*/

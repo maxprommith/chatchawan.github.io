@@ -1,248 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Colmar Academy</title>
+    <meta name="author" content="Angela Boakes">
+    <meta name="description" content="Colmar Academy. Learn something new everyday">
+    <meta name="keywords" content="Colmar Academy, learning, education, courses, thesis">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./reset.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" type="text/css">
   </head>
+
   <body>
-    <!-- Heder -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#"></a>
-                <img src="images/ic-logo.svg" alt="logo" width="30" height="64px" class="d-inline-block align-text-top">
-                <span><strong>COLMAR</strong> ACADEMY</span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="container-fluid">
-                    <div class="navbar-nav justify-content-end">
-                      <a class="nav-link active" aria-current="page" href="#">On campus</a>
-                      <a class="nav-link" href="#">Online</a>
-                      <a class="nav-link" href="#">Our companies</a>
-                      <a class="nav-link" href="#">Sign in</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </nav>
+  	<!--HEADER -->
+    <header class="flex-row" id="header">
+      <!-- LOGO AND NAME-->
+  		<div class="flex-row" id="logo" role="presentation">
+  		 <a href="index.html"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo"></a>
+  		   <div role="heading">
+  		     <h2>COLMAR</h2>
+  		   </div>
+  		</div>
+  		<!-- NAV BAR WITHIN HEADER -->
+  		<nav class="flex-row" id="nav" role="navigation">
+  		 <!-- TEXT MENU FOR DESKTOP DISPLAYS-->
+  		  <ul class="menu-main" role="presentation">
+  		    <span><li><a href=#>On Campus</a></li></span>
+  		    <span><li><a href=#>Online</a></li></span>
+  		    <span><li><a href=#>For Companies</a></li></span>
+          <span><li><a href=#>Sign In</a></li></span>
+  		  </ul>
+        <!-- ICON MENU FOR SMALLER SCREENS-->
+  		  <ul class="flex-row" id="menu-mobile" role="presentation">
+          <span><li><a href=#><img src="./resources/images/ic-on-campus.svg"></a></li></span>
+          <span><li><a href=#><img src="./resources/images/ic-online.svg"></a></li></span>
+          <span><li><a href=#><img src="./resources/images/ic-login.svg"></a></li></span>
+  		  </ul>
+  		</nav>
+  	</header>
+
+  	<!-- LEARN -->
+  	<div class="main-container flex-row" id="learn" role="presentation">
+      <div class="large-image" role="presentation">
+        <img src="./resources/images/banner.jpg" alt="People studying">
+      </div>
+      <div class="flex-col text" role="banner">
+          <h2>Learn something new everyday</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h3>
+          <div class="button" role="button">
+            <a  href="#course"><h4>Start here<h4></a>
+          </div>
+  	  </div>
     </div>
-    <!-- Banner -->
-    <div class="container">
-        <div class="p-1 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-md-6">
-                <div class="row align-items-md-center">
-                    <div class="col-md-7">
-                        <img src="images/banner.jpg" width="100%" class="img-">
-                    </div>
-                    <div class="col-md-5 p-5">
-                        <h1 class="display-6 fw-bold">Learn something <br>new everday</h1>
-                        <p class="col-md-8 fs-4">Consectetur in consequat duis veniam. Et esse adipisicing eu ex do sunt
-                            amet.</p>
-                        <button class="btn btn-secondary btn-lg align-items-center" type="button">Start here</button>
-                    </div>
-                </div>
-            </div>
+
+  	<!-- PRACTICE  -->
+  	<div class="main-container flex-row" id=practice role="presentation">
+    <!-- MAIN PHOTO AND TEXT IN PRACTICE -->
+      <div class="large-image" id="practice-col-1" role="presentation">
+          <img src="./resources/images/information-main.jpg" alt="Male reading book">
+        <div class="flex-col text" role="banner">
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>"Curabitor vitae libero in ipsum consequat. Aliquam et commod lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, trustique ligula"</p>
+          <p>Emanuel, Sr Strategist at Hiring.com</p>
         </div>
-    </div>
-    <!-- Images -->
-    <div class="container">
-        <div class="container bg-white pb-4">
-            <div class="row align-content-center p-1">
-                <div class="col-md-7 d-none d-md-block">
-                    <div class="p-md-2 mb-4 bg-transparent rounded-3">
-                        <div class="container-fluid ">
-                            <img src="images/information-main.jpg" width="100%" class="img-1">
-                            <h1 class="display-5 fw-bold fs-2 pt-4">It doesn't hurt to keep practicing</h1>
-                            <p class="col-md-12 fs-5">Excepteur ea ad incididunt id aute. Lorem ut consectetur cupidatat
-                                fugiat velit nostrud eu irure minim elit. Amet ullamco ipsum sit deserunt esse.
-                                Incididunt cillum cillum aliqua nulla exercitation sunt officia. Et id deserunt labore
-                                officia cupidatat commodo reprehenderit minim in ea.
-                            </p>
-                            <div class="fs-8 pt-5">
-                                Consequat ex dolore occaecat Lorem amet aliqua aliquip.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 ">
-                    <div class="p-5 bg-light border rounded-3 row align-items-center">
-                        <div class="col-4">
-                            <img src="images/information-orientation.jpg" class="img-2">
-                        </div>
-                        <div class="col-8 ">
-                            <div class="fs-5 fw-bold">
-                                Orientation date
-                            </div>
-                            <div class="fs-7 fw-light">
-                                Irure voluptate sit et officia ut in consectetur .
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 bg-light border rounded-3 row align-items-center">
-                        <div class="col-4">
-                            <img src="images/information-campus.jpg" class="img-3">
-                        </div>
-                        <div class="col-8">
-                            <div class="fs-5 fw-bold">
-                                Our campus
-                            </div>
-                            <div class="fs-7 fw-light">
-                                Irure voluptate sit et officia ut in consectetur .
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-5 bg-light border rounded-3 row align-items-center">
-                        <div class="col-4">
-                            <img src="images/information-guest-lecture.jpg" class="img-4">
-                        </div>
-                        <div class="col-8">
-                            <div class="fs-5 fw-bold">
-                                Our guest lecture
-                            </div>
-                            <div class="fs-7 fw-light">
-                                Irure voluptate sit et officia ut in consectetur .
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    <!-- SIDE DETAILS IN PRACTICE -->
+      <div class="flex-col" id="practice-col-2" role="presentation">
+        <div class="flex-row">
+          <div class="desktop-pic"><img src="./resources/images/information-orientation.jpg" alt="ariel view of people walking"></div>
+          <div class="flex-col" role="presentation">
+            <div class="mobile-display" role="presentation">
+              <img src="./resources/images/information-orientation-mobile.jpg" alt="arial view of people walking">
             </div>
+            <div class="info-text" role="presentation">
+              <h4>Orientation Date</h4>
+              <p>Tue 10/11 & Wed 10/12:  8am - 3pm</p>
+              <a href="#" role="navigation"><p>Read more</p></a>
+            </div>
+          </div>
         </div>
-    </div>    
-    <!-- Card -->
-    <div class="container">
-        <div class="container bg-body pt-4">
-            <div class="row justify-content-center">
-                <div class="row justify-content-center fs-1 pb-4 fw-bolder">Start learning</div>
-                <!-- Card -->
-                <div class="col-md-4 pb-4">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-software.jpg" alt="Card1">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Software engineering</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Web development, Mobile Development, IOT, APIs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-4">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-computer-art.jpg" alt="Card2">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Computer art</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Minim ipsum mollit duis sit do anim.Voluptate ipsum voluptate aliqua
-                                esse duis sint.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-4">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-design.jpg" alt="Card3">
-                        <div class="card-body">
-                            <h5 class="card-title">Design</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Mollit nostrud elit cupidatat commodo sit eu officia exercitation laborum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-4">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-data.jpg" alt="Card4">
-                        <div class="card-body">
-                            <h5 class="card-title">Data</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-4">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-business.jpg" alt="Card5">
-                        <div class="card-body">
-                            <h5 class="card-title">Business</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" pb-4="">
-                    <div class="card" style="width: 23rem;">
-                        <img class="card-img-top img-fluid" src="images/course-marketing.jpg" alt="Card6">
-                        <div class="card-body">
-                            <h5 class="card-title">Marketing</h5>
-                            <p class="card-text">COURES</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="flex-row" id="campus" role="presentation">
+          <div class="desktop-pic" role="presentation"><img src="./resources/images/information-campus.jpg" alt="University classroom"></div>
+          <div class="flex-col" role="presentation">
+            <div class="mobile-display" role="presentation">
+              <img src="./resources/images/information-campus-mobile.jpg" alt="University classroom">
             </div>
-        </div>    
+            <div class="info-text" role="presentation">
+              <h4>Our Campus</h4>
+              <p>Find which campus is close by you</p>
+              <a href="#" role="navigation"><p>Read more</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-row" id="guest" role="presentation">
+          <div class="desktop-pic" role="presentation">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="Man in glasses and hat">
+          </div>
+          <div class="flex-col" role="presentation">
+            <div class="mobile-display" role="presentation">
+              <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Man in glasses and hat">
+            </div>
+            <div class="info-text" role="presentation">
+              <h4>guest lecture</h4>
+              <p>Join a key note with Oliver Sack about music in medical treatment</p>
+              <a href="#" role="navigation"><p>Read more</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Thesis -->
-    <div class="container">
-        <div class="container bg-body pt-4 pb-5">
-            <div class="row justify-content-center">
-                <div class="row justify-content-center fs-1 pb-4 fw-bolder align-content-md-stretch">Thesis exhibit</div>
-                <div class="col-md-7">
-                    <video width="100%" height="100%" autoplay="" muted="">
-                        <source src="./videos/thesis.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="fs-3 fw-bold">
-                        Reimagine urban
-                    </div>
-                    <div class="fw-light ">
-                        Esse aliqua quis non incididunt sit magna excepteur tempor nulla. Sint officia ipsum cillum reprehenderit occaecat sint nisi ipsum. Deserunt mollit tempor ut sunt cupidatat velit ea duis.
-                    </div>
-                </div>
-                <div class="col-md-5 ">
-                    <div class="p-5 bg-light border rounded-3 row align-items-center">
-                        <div class="col-4">
-                            <img src="images/thesis-fisma.jpg" class="img1">
-                        </div>
-                        <div class="col-8">
-                            <div class="fs-5 fw-bold">
-                                Fisma: Design and Prototype
-                            </div>
-                            <div class="fs-7 fw-light">
-                                Ad et sint qui enim excepteur quis do velit officia voluptate minim dolore deserunt incididunt.
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="p-5 bg-light border rounded-3 row align-items-center">
-                        <div class="col-4">
-                            <img src="images/thesis-now-and-then.jpg" class="img2">
-                        </div>
-                        <div class="col-8">
-                            <div class="fs-5 fw-bold ">
-                                Now and Then
-                            </div>
-                            <div class="fs-7 fw-light">
-                                Quis proident nostrud ut et dolore incididunt laboris.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+  	<!-- COURSES-->
+  	<div class="main-container" id="course" role="region" aria-label="Courses available">
+      <h2>Start Learning</h2>
+      <div class="courses" role="presentation">
+        <div class="flex-row" id="courses-1" role="presentation">
+          <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-software.jpg" alt="">
+              </div>
+              <h4>Software engineering</h4>
+              <h6>COURSES</h6>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+          <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-computer-art.jpg" alt="">
+              </div>
+              <h4>Computer art</h4>
+              <h6>COURSES</h6>
+              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation.</p>
+          </div>
+          <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-design.jpg" alt="">
+              </div>
+              <h4>Design</h4>
+              <h6>COURSES</h6>
+              <p>User Experience Design, User Research, Visual Design.</p>
+          </div>
+        </div>
+          <div class="flex-row" id="courses-2" role="presentation">
+            <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-data.jpg" alt="">
+              </div>
+              <h4>Data</h4>
+              <h6>COURSES</h6>
+              <p>Data Science, Big Data, SQL, Data Visualisation.</p>
             </div>
+            <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-business.jpg" alt="">
+              </div>
+              <h4>Business</h4>
+              <h6>COURSES</h6>
+              <p>Product Development, Business Development, Startup.</p>
+            </div>
+            <div class="course-container" role="presentation">
+              <div class="course-img" role="presentation">
+                <img src="./resources/images/course-marketing.jpg" alt="">
+              </div>
+                <h4>Marketing</h4>
+                <h6>COURSES</h6>
+                <p>Analytics, Content Marketing, Mobile Marketing.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  	<!-- THESIS -->
+  	<div class="main-container" id="thesis" role="presentation">
+      <h2>Thesis exhibit</h2>
+        <div class="flex-row" role="presentation">
+
+          <!-- VIDEO CONTAINER WITH TEXT -->
+          <div class="video" role="presentation">
+            <video src="./resources/video/thesis.mp4" preload="auto" autoplay controls></video>
+            <h4>Reimagine urban</h4>
+            <p>"Maecenas sem quam, egestas eget sapien vitae, condimentum lobortis libero. Aenean nibh risus, malesuada vitae interdum et, semper eget nisl. Nullam vitae blandit arcu, vitae placerat nulla. Praesent vitae mauris quis ligula tincidunt venenatis. Suspendisse viverra luctus nisl, vitae blandit ligula suscipit ac."</p>
+          </div>
+
+        <!--SIDE CONTENT WITH THESIS INFORMATION-->
+          <div class="thesis-content" role="presentation">
+            <div class="flex-row" id="fisma" role="presentation">
+              <div class="thesis-img">
+                <img src="./resources/images/thesis-fisma.jpg" alt="">
+              </div>
+              <div class="flex-col thesis-text" role="presentation">
+                <h4>Fisma: Design and Prototype</h4>
+                <p>Designer showcase of new prototype product.</p>
+              </div>
+            </div>
+            <div class="flex-row" role="presentation">
+              <div class="thesis-img" role="presentation">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="">
+              </div>
+              <div class="flex-col thesis-text" role="presentation">
+                <h4>Now and then</h4>
+                <p>Research study about New York.</p>
+              </div>
+            </div>
+          </div>
 
         </div>
-    </div>
+      </div>
+
+  	<!-- FOOTER-->
+  	<footer class="main-container flex-row" id="footer">
+      <div class="copyright" role="presentation">
+        <span>&copy Colmar Academy</span>
+        <span>All Rights Reserved</span>
+      </div>
+      <div class="terms" role="presentation">
+        <span>Terms</span>
+        <span>Privacy</span>
+      </div>
+  	</footer>
+
   </body>
 </html>
